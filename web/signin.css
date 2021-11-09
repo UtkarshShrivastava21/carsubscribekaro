@@ -1,0 +1,109 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 05-Oct-2021, 8:35:17 pm
+    Author     : Utkarsh
+*/
+
+@charset "ISO-8859-1";
+*
+{
+	margin: 0;
+	padding-top: 25px;
+}
+.row
+{    
+
+	background: white;
+	border-radius: 30px;
+	box-shadow: 12px 12px 22px;
+	
+}
+.col-lg-5 img
+{    padding-bottom:20px;
+	border-top-left-radius:30px; 
+	border-bottom-left-radius: 30px;
+        height: 400px;
+            
+}
+.col-lg-5 h2
+{
+font-family: 'Zen Kurenaido', sans-serif;
+font-size: 40px;
+        text-align:left;
+        font-weight: 700;
+        padding-top: 150px;
+        padding-left: 20px; 
+        color: #ff4500;
+}
+.col-lg-5 p
+{
+    text-align: left;
+    padding-left: 100px;
+}
+
+h1
+{ 
+	padding-right:200px;
+	font-size:60px;
+	text-align: center;
+font-family: 'Libre Baskerville', serif;
+color: #ff4500;
+}
+.inp
+{
+
+	height: 50px;
+	width: 70%;
+	border: none;
+	outline: none;
+	border-radius: 60px;
+	text-align:center;
+	padding-bottom:20px;
+	box-shadow: 1px 3px 31px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 3px 31px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 3px 31px -4px rgba(0,0,0,0.75);
+}
+.btn
+{
+	text-align: center;
+    height: 50px;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600;
+    color: black;
+}
+.btn:hover
+{
+	background: #ff4500;
+	color: white;
+}
+a
+{
+	text-align: right;
+	padding-left: 400px;
+}
+p
+{
+	padding-left: 200px;
+	
+}
+.socials
+{
+	padding-left: 150px;
+}
+.socials .fa
+{
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+	top:50px;
+	margin: 40px 5px 0;
+	color:#ff4500 ;
+	cursor: pointer;
+	transition: 0.5s; 
+}
